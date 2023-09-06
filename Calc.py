@@ -14,6 +14,9 @@ def divide(a, b):
     else:
         return a / b
     
+def adventure():
+    print("The Adventure is still a work in progress!")
+    
 while True:
     print("\nSelect operation: ")
     print("q. Quit")
@@ -21,6 +24,7 @@ while True:
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+    print("5. Start a Math Adventure")
 
     choice = input("Enter choice: ")
     
@@ -45,6 +49,11 @@ while True:
     elif choice == "4":
         result = divide(num1, num2)
         print("The result is: ", result)
+
+    elif choice == "5":
+        print("Welcome to the start of Math Adventure!")
+        print("In this text-based adventure, you will receive tasks and progress towards the ending using your skills with them.")
+        adventure()
 
     else:
         print("Invalid input!")
