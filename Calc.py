@@ -1,3 +1,5 @@
+import math
+
 def add(a, b):
     return a + b
 
@@ -15,7 +17,11 @@ def divide(a, b):
         return a / b
     
 def adventure():
+    print("Welcome to The Math Adventure!")
+    print("In this adventure, you will be asked questions, and you will answer them in numbers.")
+    print("Occasionally, you will also be asked to do arithmetic operations.")
     print("The Adventure is still a work in progress!")
+    print("In the waiting, why not check out the creator's Modern Poetry?")
     
 while True:
     print("\nSelect operation: ")
